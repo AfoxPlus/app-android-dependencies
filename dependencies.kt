@@ -23,6 +23,7 @@ object Versions {
     const val okHttpJsonMockVersion             = "3.0"
     const val roomVersion                       = "2.3.0"
     const val lifecycleVersion                  = "2.3.1"
+    const val chuckerVersion                    = "3.5.0"
 	
 	//Business Modules
     //const val ProductsVersion                 = "1.0.0-SNAPSHOT"
@@ -39,14 +40,14 @@ object Versions {
 	//Test
 	const val jUnitVersion                      = "4.13.2"
     const val androidJUnitVersion               = "1.1.3"
-    const val espressoVersion                   = "3.4.0"+
+    const val espressoVersion                   = "3.4.0"
 	
 }
 
 object Deps {
 
     object Jetpack {
-        const val kotlin                        = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Versions.kotlin}"
+        const val kotlin                        = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Versions.kotlinVersion}"
         const val core                          = "androidx.core:core-ktx:${Versions.coreVersion}"
         const val appcompat                     = "androidx.appcompat:appcompat:${Versions.appcompatVersion}"
         const val activity                      = "androidx.activity:activity-ktx:${Versions.activityVersion}"
@@ -61,7 +62,7 @@ object Deps {
         const val retrofit2                     = "com.squareup.retrofit2:retrofit:${Versions.retrofit2Version}"
         const val gson                          = "com.squareup.retrofit2:converter-gson:${Versions.retrofit2Version}"
         const val loggingInterceptor            = "com.squareup.okhttp3:logging-interceptor:${Versions.okhttp3Version}"
-        const val okHttpJsonMock                = "com.github.mirrajabi:okhttp-json-mock:${VersionApp.okHttpJsonMockVersion}"
+        const val okHttpJsonMock                = "com.github.mirrajabi:okhttp-json-mock:${Versions.okHttpJsonMockVersion}"
         const val room                          = "androidx.room:room-ktx:${Versions.roomVersion}"
         const val roomCompiler                  = "androidx.room:room-compiler:${Versions.roomVersion}"
         const val lifecycleViewModel            = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycleVersion}"
