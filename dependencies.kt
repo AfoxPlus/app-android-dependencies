@@ -25,7 +25,7 @@ object Versions {
     const val lifecycleVersion                  = "2.3.1"
     const val chuckerVersion                    = "3.5.0"
 	
-	//Business Modules
+    //Business Modules
     //const val ProductsVersion                 = "1.0.0-SNAPSHOT"
     //const val OrdersCoreVersion               = "1.0.0-SNAPSHOT"
     //const val CoreVersion                     = "1.0.0-SNAPSHOT"
@@ -37,8 +37,8 @@ object Versions {
     const val constraintLayoutVersion           = "2.1.0"
     const val glideVersion                      = "4.12.0"
 	
-	//Test
-	const val jUnitVersion                      = "4.13.2"
+    //Test
+    const val jUnitVersion                      = "4.13.2"
     const val androidJUnitVersion               = "1.1.3"
     const val espressoVersion                   = "3.4.0"
 	
@@ -57,7 +57,8 @@ object Deps {
     object Arch {
         const val coroutinesCore                = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutinesVersion}"
         const val coroutinesAndroid             = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutinesVersion}"
-        const val hiltAndroid                   = "com.google.dagger:hilt-android:${Versions.hiltVersion}"
+        const val coreHiltAndroid               = "com.google.dagger:hilt-core:${Versions.hiltVersion}"
+	const val hiltAndroid                   = "com.google.dagger:hilt-android:${Versions.hiltVersion}"
         const val hiltCompiler                  = "com.google.dagger:hilt-compiler:${Versions.hiltVersion}"
         const val retrofit2                     = "com.squareup.retrofit2:retrofit:${Versions.retrofit2Version}"
         const val gson                          = "com.squareup.retrofit2:converter-gson:${Versions.retrofit2Version}"
