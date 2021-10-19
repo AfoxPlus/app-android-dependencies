@@ -26,10 +26,9 @@ object Versions {
     const val chuckerVersion                    = "3.5.0"
 	
     //Business Modules
-    //const val ProductsVersion                 = "1.0.0-SNAPSHOT"
+    const val uikitVersion                      = "1.0.0"
+    const val productsVersion                   = "1.0.0"
     //const val OrdersCoreVersion               = "1.0.0-SNAPSHOT"
-    //const val CoreVersion                     = "1.0.0-SNAPSHOT"
-    //const val UIKitVersion                    = "1.0.0-SNAPSHOT"
 
     //Views
     const val materialVersion                   = "1.4.0"
@@ -69,17 +68,16 @@ object Deps {
         const val lifecycleViewModel            = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycleVersion}"
         const val lifecycleLiveData             = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycleVersion}"
         const val lifecycleRuntime              = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycleVersion}"
-
-        //const val variantCore                   = "com.github.AfoxPlus:variant_core:${Versions.variantCore}"
-        //const val variantOrdersCore             = "com.github.AfoxPlus:variant_orders_core:${Versions.variantOrdersCore}"
-        //const val variantProducts               = "com.github.AfoxPlus:variant_products_android:${Versions.variantProducts}"
+        const val products               	= "com.afoxplus.android:products:${Versions.productsVersion}"
+	//const val variantOrdersCore           = "com.github.AfoxPlus:variant_orders_core:${Versions.variantOrdersCore}"
+        
 			
         const val chucker                       = "com.github.chuckerteam.chucker:library:${Versions.chuckerVersion}"
         const val chuckerNoOp                   = "com.github.chuckerteam.chucker:library-no-op:${Versions.chuckerVersion}"
     }
 
     object UI {
-        //const val variantUIKit                  = "com.github.AfoxPlus:variant_uikit_android:${Versions.variantUIKit}"
+        const val uikit                         = "com.afoxplus.android:uikit:${Versions.uikitVersion}"
         const val materialDesign                = "com.google.android.material:material:${Versions.materialVersion}"
         const val constraintLayout              = "androidx.constraintlayout:constraintlayout:${Versions.constraintLayoutVersion}"
         const val recyclerview                  = "androidx.recyclerview:recyclerview:${Versions.recyclerviewVersion}"
