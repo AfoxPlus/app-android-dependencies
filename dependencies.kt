@@ -25,11 +25,10 @@ object Versions {
     const val lifecycleVersion                  = "2.3.1"
     const val chuckerVersion                    = "3.5.0"
 	
-	//Business Modules
-    //const val ProductsVersion                 = "1.0.0-SNAPSHOT"
+    //Business Modules
+    const val uikitVersion                      = "1.0.3"
+    const val productsVersion                   = "1.0.0"
     //const val OrdersCoreVersion               = "1.0.0-SNAPSHOT"
-    //const val CoreVersion                     = "1.0.0-SNAPSHOT"
-    //const val UIKitVersion                    = "1.0.0-SNAPSHOT"
 
     //Views
     const val materialVersion                   = "1.4.0"
@@ -37,8 +36,8 @@ object Versions {
     const val constraintLayoutVersion           = "2.1.0"
     const val glideVersion                      = "4.12.0"
 	
-	//Test
-	const val jUnitVersion                      = "4.13.2"
+    //Test
+    const val jUnitVersion                      = "4.13.2"
     const val androidJUnitVersion               = "1.1.3"
     const val espressoVersion                   = "3.4.0"
 	
@@ -57,7 +56,8 @@ object Deps {
     object Arch {
         const val coroutinesCore                = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutinesVersion}"
         const val coroutinesAndroid             = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutinesVersion}"
-        const val hiltAndroid                   = "com.google.dagger:hilt-android:${Versions.hiltVersion}"
+        const val coreHiltAndroid               = "com.google.dagger:hilt-core:${Versions.hiltVersion}"
+	const val hiltAndroid                   = "com.google.dagger:hilt-android:${Versions.hiltVersion}"
         const val hiltCompiler                  = "com.google.dagger:hilt-compiler:${Versions.hiltVersion}"
         const val retrofit2                     = "com.squareup.retrofit2:retrofit:${Versions.retrofit2Version}"
         const val gson                          = "com.squareup.retrofit2:converter-gson:${Versions.retrofit2Version}"
@@ -68,17 +68,16 @@ object Deps {
         const val lifecycleViewModel            = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycleVersion}"
         const val lifecycleLiveData             = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycleVersion}"
         const val lifecycleRuntime              = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycleVersion}"
-
-        //const val variantCore                   = "com.github.AfoxPlus:variant_core:${Versions.variantCore}"
-        //const val variantOrdersCore             = "com.github.AfoxPlus:variant_orders_core:${Versions.variantOrdersCore}"
-        //const val variantProducts               = "com.github.AfoxPlus:variant_products_android:${Versions.variantProducts}"
+        const val products               	= "com.afoxplus.android:products:${Versions.productsVersion}"
+	//const val variantOrdersCore           = "com.github.AfoxPlus:variant_orders_core:${Versions.variantOrdersCore}"
+        
 			
         const val chucker                       = "com.github.chuckerteam.chucker:library:${Versions.chuckerVersion}"
         const val chuckerNoOp                   = "com.github.chuckerteam.chucker:library-no-op:${Versions.chuckerVersion}"
     }
 
     object UI {
-        //const val variantUIKit                  = "com.github.AfoxPlus:variant_uikit_android:${Versions.variantUIKit}"
+        const val uikit                         = "com.afoxplus.android:uikit:${Versions.uikitVersion}"
         const val materialDesign                = "com.google.android.material:material:${Versions.materialVersion}"
         const val constraintLayout              = "androidx.constraintlayout:constraintlayout:${Versions.constraintLayoutVersion}"
         const val recyclerview                  = "androidx.recyclerview:recyclerview:${Versions.recyclerviewVersion}"
