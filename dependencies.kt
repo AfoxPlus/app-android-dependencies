@@ -26,9 +26,8 @@ object Versions {
     const val chuckerVersion                    = "3.5.0"
 	
     //Business Modules
-    const val uikitVersion                      = "1.0.3"
+    const val uikitVersion                      = "1.0.2"
     const val productsVersion                   = "1.0.0"
-    //const val OrdersCoreVersion               = "1.0.0-SNAPSHOT"
 
     //Views
     const val materialVersion                   = "1.4.0"
@@ -69,7 +68,6 @@ object Deps {
         const val lifecycleLiveData             = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycleVersion}"
         const val lifecycleRuntime              = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycleVersion}"
         const val products               	= "com.afoxplus.android:products:${Versions.productsVersion}"
-	//const val variantOrdersCore           = "com.github.AfoxPlus:variant_orders_core:${Versions.variantOrdersCore}"
         
 			
         const val chucker                       = "com.github.chuckerteam.chucker:library:${Versions.chuckerVersion}"
