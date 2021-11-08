@@ -40,6 +40,10 @@ object Versions {
     const val jUnitVersion                      = "4.13.2"
     const val androidJUnitVersion               = "1.1.3"
     const val espressoVersion                   = "3.4.0"
+
+    //Scan
+    const val zxingAndroidVersion               = "4.2.0"
+    const val zxingCoreVersion                  = "3.4.0"
 	
 }
 
@@ -73,6 +77,9 @@ object Deps {
 			
         const val chucker                       = "com.github.chuckerteam.chucker:library:${Versions.chuckerVersion}"
         const val chuckerNoOp                   = "com.github.chuckerteam.chucker:library-no-op:${Versions.chuckerVersion}"
+
+        const val zxingAndroid                  = "com.journeyapps:zxing-android-embedded:${Versions.zxingAndroidVersion}"
+        const val zxingCore                     = "com.google.zxing:core:${Versions.zxingCoreVersion}"
     }
 
     object UI {
