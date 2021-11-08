@@ -26,9 +26,9 @@ object Versions {
     const val chuckerVersion                    = "3.5.0"
 	
     //Business Modules
-    const val uikitVersion                      = "1.0.3"
-    const val productsVersion                   = "1.0.0"
-    //const val OrdersCoreVersion               = "1.0.0-SNAPSHOT"
+    const val uikitVersion                      = "1.1.1-develop-SNAPSHOT"
+    const val productsVersion                   = "1.0.1-feature-offer-SNAPSHOT"
+    const val homeVersion                       = "1.0.0"
 
     //Views
     const val materialVersion                   = "1.4.0"
@@ -57,7 +57,7 @@ object Deps {
         const val coroutinesCore                = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutinesVersion}"
         const val coroutinesAndroid             = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutinesVersion}"
         const val coreHiltAndroid               = "com.google.dagger:hilt-core:${Versions.hiltVersion}"
-	const val hiltAndroid                   = "com.google.dagger:hilt-android:${Versions.hiltVersion}"
+	    const val hiltAndroid                   = "com.google.dagger:hilt-android:${Versions.hiltVersion}"
         const val hiltCompiler                  = "com.google.dagger:hilt-compiler:${Versions.hiltVersion}"
         const val retrofit2                     = "com.squareup.retrofit2:retrofit:${Versions.retrofit2Version}"
         const val gson                          = "com.squareup.retrofit2:converter-gson:${Versions.retrofit2Version}"
@@ -68,9 +68,8 @@ object Deps {
         const val lifecycleViewModel            = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycleVersion}"
         const val lifecycleLiveData             = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycleVersion}"
         const val lifecycleRuntime              = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycleVersion}"
-        const val products               	= "com.afoxplus.android:products:${Versions.productsVersion}"
-	//const val variantOrdersCore           = "com.github.AfoxPlus:variant_orders_core:${Versions.variantOrdersCore}"
-        
+        const val products               	    = "com.afoxplus.android:products:${Versions.productsVersion}"
+        const val home                         	= "com.afoxplus.android:home:${Versions.homeVersion}"
 			
         const val chucker                       = "com.github.chuckerteam.chucker:library:${Versions.chuckerVersion}"
         const val chuckerNoOp                   = "com.github.chuckerteam.chucker:library-no-op:${Versions.chuckerVersion}"
