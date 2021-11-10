@@ -26,7 +26,7 @@ object Versions {
     const val chuckerVersion                    = "3.5.0"
 	
     //Business Modules
-    const val uikitVersion                      = "1.1.1-develop-SNAPSHOT"
+    const val uikitVersion                      = "1.0.0"
     const val productsVersion                   = "1.0.1-feature-offer-SNAPSHOT"
     const val homeVersion                       = "1.0.0"
 
