@@ -27,6 +27,7 @@ object Versions {
 	
     //Business Modules
     const val uikitVersion                      = "2.0.0"
+    const val networkVersion                    = "1.0.0"
     const val productsVersion                   = "1.0.0"
 
     //Views
@@ -60,7 +61,7 @@ object Deps {
         const val coroutinesCore                = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutinesVersion}"
         const val coroutinesAndroid             = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutinesVersion}"
         const val coreHiltAndroid               = "com.google.dagger:hilt-core:${Versions.hiltVersion}"
-	    const val hiltAndroid                   = "com.google.dagger:hilt-android:${Versions.hiltVersion}"
+	const val hiltAndroid                   = "com.google.dagger:hilt-android:${Versions.hiltVersion}"
         const val hiltCompiler                  = "com.google.dagger:hilt-compiler:${Versions.hiltVersion}"
         const val retrofit2                     = "com.squareup.retrofit2:retrofit:${Versions.retrofit2Version}"
         const val gson                          = "com.squareup.retrofit2:converter-gson:${Versions.retrofit2Version}"
@@ -71,7 +72,9 @@ object Deps {
         const val lifecycleViewModel            = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycleVersion}"
         const val lifecycleLiveData             = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycleVersion}"
         const val lifecycleRuntime              = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycleVersion}"
-        const val products               	    = "com.afoxplus.android:products:${Versions.productsVersion}"
+        const val products               	= "com.afoxplus.android:products:${Versions.productsVersion}"
+	const val network               	= "com.afoxplus.android:network:${Versions.networkVersion}"
+	    
 	//const val variantOrdersCore           = "com.github.AfoxPlus:variant_orders_core:${Versions.variantOrdersCore}"
         
 			
