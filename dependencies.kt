@@ -89,7 +89,7 @@ object Deps {
         const val network               	= "com.afoxplus.android:network:${Versions.networkVersion}"
         const val home                         	= "com.afoxplus.android:home:${Versions.homeVersion}"
         const val restaurants                   = "com.afoxplus.android:restaurants:${Versions.restaurantsVersion}"
-	const val orders                        = "com.afoxplus.android:restaurants:${Versions.ordersVersion}"
+	const val orders                        = "com.afoxplus.android:orders:${Versions.ordersVersion}"
     }
 
     object UI {
