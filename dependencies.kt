@@ -47,6 +47,8 @@ object Versions {
     const val truthVersion                      = "1.1.3"
     const val mockitoVersion                    = "2.28.2"
     const val mockitoKotlinVersion              = "4.0.0"
+    const val mockitoInlineVersion              = "4.3.1"
+    const val kotlinCoroutineVersion            = "1.6.0"
 
     //Scan
     const val zxingAndroidVersion               = "4.2.0"
@@ -109,5 +111,7 @@ object Deps {
         const val truth                         = "com.google.truth:truth:${Versions.truthVersion}"
         const val mockito                       = "org.mockito:mockito-core:${Versions.mockitoVersion}"
         const val mockitoKotlin                 = "org.mockito.kotlin:mockito-kotlin:${Versions.mockitoKotlinVersion}"
+        const val mockitoInline                 = "org.mockito:mockito-inline:${Versions.mockitoInlineVersion}"
+        const val kotlinCoroutine               = "org.jetbrains.kotlinx:kotlinx-coroutines-test:${Versions.kotlinCoroutineVersion}"
     }
 }
