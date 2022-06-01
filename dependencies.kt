@@ -26,12 +26,12 @@ object Versions {
     const val chuckerVersion                    = "3.5.0"
 
     //Business Modules
-    const val uikitVersion                      = "2.1.3-RC01.2022-SNAPSHOT"
+    const val uikitVersion                      = "2.1.4-RC01.2022-SNAPSHOT"
     const val networkVersion                    = "1.0.0"
     const val productsVersion                   = "2.0.1-RC01.2022-SNAPSHOT"
     const val homeVersion                       = "1.0.3"
     const val restaurantsVersion                = "1.0.0"
-    const val ordersVersion                     = "1.0.2-RC01.2022-SNAPSHOT"
+    const val ordersVersion                     = "1.0.3-RC01.2022-SNAPSHOT"
 
     //Views
     const val materialVersion                   = "1.4.0"
