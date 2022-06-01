@@ -38,6 +38,7 @@ object Versions {
     const val recyclerviewVersion               = "1.2.1"
     const val constraintLayoutVersion           = "2.1.0"
     const val glideVersion                      = "4.12.0"
+    const val fbShimmerVersion                    = "0.5.0"
 
     //Test
     const val jUnitVersion                      = "4.13.2"
@@ -70,7 +71,7 @@ object Deps {
         const val coroutinesCore                = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutinesVersion}"
         const val coroutinesAndroid             = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutinesVersion}"
         const val coreHiltAndroid               = "com.google.dagger:hilt-core:${Versions.hiltVersion}"
-	const val hiltAndroid                   = "com.google.dagger:hilt-android:${Versions.hiltVersion}"
+	    const val hiltAndroid                   = "com.google.dagger:hilt-android:${Versions.hiltVersion}"
         const val hiltCompiler                  = "com.google.dagger:hilt-compiler:${Versions.hiltVersion}"
         const val retrofit2                     = "com.squareup.retrofit2:retrofit:${Versions.retrofit2Version}"
         const val gson                          = "com.squareup.retrofit2:converter-gson:${Versions.retrofit2Version}"
@@ -80,18 +81,18 @@ object Deps {
         const val roomCompiler                  = "androidx.room:room-compiler:${Versions.roomVersion}"
         const val lifecycleViewModel            = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycleVersion}"
         const val lifecycleLiveData             = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycleVersion}"
-        const val lifecycleRuntime              = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycleVersion}"    
+        const val lifecycleRuntime              = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycleVersion}"
         const val chucker                       = "com.github.chuckerteam.chucker:library:${Versions.chuckerVersion}"
         const val chuckerNoOp                   = "com.github.chuckerteam.chucker:library-no-op:${Versions.chuckerVersion}"
         const val zxingAndroid                  = "com.journeyapps:zxing-android-embedded:${Versions.zxingAndroidVersion}"
         const val zxingCore                     = "com.google.zxing:core:${Versions.zxingCoreVersion}"
-	    
+
         //Business Modules
         const val products               	= "com.afoxplus.android:products:${Versions.productsVersion}"
         const val network               	= "com.afoxplus.android:network:${Versions.networkVersion}"
         const val home                         	= "com.afoxplus.android:home:${Versions.homeVersion}"
         const val restaurants                   = "com.afoxplus.android:restaurants:${Versions.restaurantsVersion}"
-	const val orders                        = "com.afoxplus.android:orders:${Versions.ordersVersion}"
+	    const val orders                        = "com.afoxplus.android:orders:${Versions.ordersVersion}"
     }
 
     object UI {
@@ -101,6 +102,7 @@ object Deps {
         const val recyclerview                  = "androidx.recyclerview:recyclerview:${Versions.recyclerviewVersion}"
         const val glide                         = "com.github.bumptech.glide:glide:${Versions.glideVersion}"
         const val glideCompiler                 = "com.github.bumptech.glide:compiler:${Versions.glideVersion}"
+        const val fbShimmer                     = "com.facebook.shimmer:shimmer:${Versions.fbShimmerVersion}"
     }
 
     object Test {
