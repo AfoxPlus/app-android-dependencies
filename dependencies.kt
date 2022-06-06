@@ -29,8 +29,8 @@ object Versions {
     const val uikitVersion                      = "2.3.0-RC01.2022-SNAPSHOT"
     const val networkVersion                    = "1.0.0"
     const val productsVersion                   = "2.0.1-RC01.2022-SNAPSHOT"
-    const val homeVersion                       = "1.0.3"
-    const val restaurantsVersion                = "1.0.0"
+    const val homeVersion                       = "1.1.0-RC01.2021-SNAPSHOT"
+    const val restaurantsVersion                = "1.1.0-RC01.2021-SNAPSHOT"
     const val ordersVersion                     = "1.0.3-RC01.2022-SNAPSHOT"
 
     //Views
@@ -88,8 +88,8 @@ object Deps {
         const val zxingCore                     = "com.google.zxing:core:${Versions.zxingCoreVersion}"
 
         //Business Modules
-        const val products               	= "com.afoxplus.android:products:${Versions.productsVersion}"
-        const val network               	= "com.afoxplus.android:network:${Versions.networkVersion}"
+        const val products               	    = "com.afoxplus.android:products:${Versions.productsVersion}"
+        const val network               	    = "com.afoxplus.android:network:${Versions.networkVersion}"
         const val home                         	= "com.afoxplus.android:home:${Versions.homeVersion}"
         const val restaurants                   = "com.afoxplus.android:restaurants:${Versions.restaurantsVersion}"
 	    const val orders                        = "com.afoxplus.android:orders:${Versions.ordersVersion}"
