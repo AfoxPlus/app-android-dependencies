@@ -31,7 +31,7 @@ object Versions {
     const val productsVersion                   = "2.0.1-RC01.2022-SNAPSHOT"
     const val homeVersion                       = "1.1.0-RC01.2022-SNAPSHOT"
     const val restaurantsVersion                = "1.1.0-RC01.2021-SNAPSHOT"
-    const val ordersVersion                     = "1.0.3-RC01.2022-SNAPSHOT"
+    const val ordersVersion                     = "2.0.0-RC01.2022-SNAPSHOT"
 
     //Views
     const val materialVersion                   = "1.4.0"
