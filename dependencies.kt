@@ -1,32 +1,32 @@
 object Versions {
     //Kotlin
-    const val kotlinVersion                     = "1.5.21"
+    const val kotlinVersion                     = "1.8.20"
     //SDK
-    const val compileSdkVersion                 = 31
+    const val compileSdkVersion                 = 33
     const val buildToolsVersion                 = "31.0.0"
     const val minSdkVersion                     = 23
-    const val targetSdkVersion                  = 31
+    const val targetSdkVersion                  = 33
 
     const val testInstrumentationRunner         = "androidx.test.runner.AndroidJUnitRunner"
 
     //Android
-    const val coreVersion                       = "1.6.0"
-    const val appcompatVersion                  = "1.3.1"
-    const val activityVersion                   = "1.3.1"
-    const val fragmentVersion                   = "1.3.6"
+    const val coreVersion                       = "1.10.1"
+    const val appcompatVersion                  = "1.6.1"
+    const val activityVersion                   = "1.6.1"
+    const val fragmentVersion                   = "1.5.5"
 
     //Architecture
-    const val hiltVersion                       = "2.38.1"
-    const val coroutinesVersion                 = "1.5.0"
+    const val hiltVersion                       = "2.46"
+    const val coroutinesVersion                 = "1.7.0"
     const val retrofit2Version                  = "2.9.0"
-    const val okhttp3Version                    = "4.9.1"
-    const val okHttpJsonMockVersion             = "3.0"
-    const val roomVersion                       = "2.3.0"
-    const val lifecycleVersion                  = "2.3.1"
+    const val okhttp3Version                    = "4.11.0"
+    const val okHttpJsonMockVersion             = "1.1.1"
+    const val roomVersion                       = "2.5.1"
+    const val lifecycleVersion                  = "2.6.1"
     const val chuckerVersion                    = "3.5.0"
 
     //Business Modules
-    const val uikitVersion                      = "3.0.1-RC01.2022-SNAPSHOT"
+    const val uikitVersion                      = "5.1.0"
     const val networkVersion                    = "1.0.0"
     const val productsVersion                   = "2.0.1-RC01.2022-SNAPSHOT"
     const val homeVersion                       = "1.1.0-RC01.2022-SNAPSHOT"
@@ -34,11 +34,11 @@ object Versions {
     const val ordersVersion                     = "2.1.0-RC01.2022-SNAPSHOT"
 
     //Views
-    const val materialVersion                   = "1.4.0"
+    const val materialVersion                   = "1.9.0"
     const val recyclerviewVersion               = "1.2.1"
-    const val constraintLayoutVersion           = "2.1.0"
-    const val glideVersion                      = "4.12.0"
-    const val fbShimmerVersion                    = "0.5.0"
+    const val constraintLayoutVersion           = "2.1.4"
+    const val glideVersion                      = "4.15.1"
+    const val fbShimmerVersion                  = "0.5.0"
 
     //Test
     const val jUnitVersion                      = "4.13.2"
