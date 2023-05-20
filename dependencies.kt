@@ -52,8 +52,8 @@ object Versions {
     const val kotlinCoroutineVersion            = "1.6.0"
 
     //Scan
-    const val zxingAndroidVersion               = "4.2.0"
-    const val zxingCoreVersion                  = "3.4.0"
+    const val zxingAndroidVersion               = "4.3.0"
+    const val zxingCoreVersion                  = "3.3.0"
 
 }
 
