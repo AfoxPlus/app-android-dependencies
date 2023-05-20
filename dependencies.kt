@@ -28,10 +28,10 @@ object Versions {
     //Business Modules
     const val uikitVersion                      = "5.1.0"
     const val networkVersion                    = "1.1.0"
-    const val productsVersion                   = "2.0.1-RC01.2022-SNAPSHOT"
-    const val homeVersion                       = "1.1.0-RC01.2022-SNAPSHOT"
-    const val restaurantsVersion                = "1.1.0-RC01.2021-SNAPSHOT"
-    const val ordersVersion                     = "2.1.0-RC01.2022-SNAPSHOT"
+    const val productsVersion                   = "3.0.0"
+    const val homeVersion                       = "3.0.0"
+    const val restaurantsVersion                = "3.0.0"
+    const val ordersVersion                     = "3.0.0"
 
     //Views
     const val materialVersion                   = "1.9.0"
