@@ -31,7 +31,7 @@ object Versions {
     const val productsVersion                   = "3.0.0-fetch_by_restaurant-SNAPSHOT"
     const val homeVersion                       = "3.0.0"
     const val restaurantsVersion                = "3.0.0"
-    const val ordersVersion                     = "3.0.0"
+    const val ordersVersion                     = "3.0.0-orders_updates-SNAPSHOT"
 
     //Views
     const val materialVersion                   = "1.9.0"
