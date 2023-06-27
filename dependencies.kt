@@ -23,7 +23,7 @@ object Versions {
     const val okHttpJsonMockVersion             = "1.1.1"
     const val roomVersion                       = "2.5.1"
     const val lifecycleVersion                  = "2.6.1"
-    const val chuckerVersion                    = "3.5.0"
+    const val chuckerVersion                    = "3.5.2"
 
     //Business Modules
     const val uikitVersion                      = "5.3.1"
