@@ -29,9 +29,9 @@ object Versions {
     const val uikitVersion                      = "5.3.4"
     const val networkVersion                    = "1.2.3"
     const val productsVersion                   = "3.0.2"
-    const val homeVersion                       = "3.0.6"
+    const val homeVersion                       = "3.0.7"
     const val restaurantsVersion                = "3.0.4"
-    const val ordersVersion                     = "3.0.10"
+    const val ordersVersion                     = "3.0.11"
     const val authVersion                       = "1.0.0"
     const val waiterVersion                     = "1.0.0"
 
