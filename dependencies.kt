@@ -29,9 +29,11 @@ object Versions {
     const val uikitVersion                      = "5.3.4"
     const val networkVersion                    = "1.2.3"
     const val productsVersion                   = "3.0.2"
-    const val homeVersion                       = "3.0.5"
+    const val homeVersion                       = "3.0.6"
     const val restaurantsVersion                = "3.0.4"
-    const val ordersVersion                     = "3.0.9"
+    const val ordersVersion                     = "3.0.10"
+    const val authVersion                       = "1.0.0"
+    const val waiterVersion                     = "1.0.0"
 
     //Views
     const val materialVersion                   = "1.9.0"
@@ -93,6 +95,8 @@ object Deps {
         const val home                         	= "com.afoxplus.android:home:${Versions.homeVersion}"
         const val restaurants                   = "com.afoxplus.android:restaurants:${Versions.restaurantsVersion}"
 	    const val orders                        = "com.afoxplus.android:orders:${Versions.ordersVersion}"
+        const val auth                          = "com.afoxplus.android:auth:${Versions.authVersion}"
+        const val waiter                        = "com.afoxplus.android:waiter:${Versions.waiterVersion}"
     }
 
     object UI {
