@@ -73,7 +73,7 @@ object Deps {
         const val coroutinesCore                = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutinesVersion}"
         const val coroutinesAndroid             = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutinesVersion}"
         const val coreHiltAndroid               = "com.google.dagger:hilt-core:${Versions.hiltVersion}"
-	    const val hiltAndroid                   = "com.google.dagger:hilt-android:${Versions.hiltVersion}"
+	const val hiltAndroid                   = "com.google.dagger:hilt-android:${Versions.hiltVersion}"
         const val hiltCompiler                  = "com.google.dagger:hilt-compiler:${Versions.hiltVersion}"
         const val retrofit2                     = "com.squareup.retrofit2:retrofit:${Versions.retrofit2Version}"
         const val gson                          = "com.squareup.retrofit2:converter-gson:${Versions.retrofit2Version}"
@@ -96,7 +96,7 @@ object Deps {
         const val restaurants                   = "com.afoxplus.android:restaurants:${Versions.restaurantsVersion}"
 	const val orders                        = "com.afoxplus.android:orders:${Versions.ordersVersion}"
         const val auth                          = "com.afoxplus.android:auth:${Versions.authVersion}"
-        const val demo_config                   = "com.afoxplus.android:waiter:${Versions.demo_config}"
+        const val demo_config                   = "com.afoxplus.android:demo_config:${Versions.demo_config}"
     }
 
     object UI {
