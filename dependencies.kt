@@ -33,7 +33,7 @@ object Versions {
     const val restaurantsVersion                = "3.0.4"
     const val ordersVersion                     = "3.0.12"
     const val authVersion                       = "1.0.0"
-    const val waiterVersion                     = "1.0.0"
+    const val demo_config                     	= "1.0.0"
 
     //Views
     const val materialVersion                   = "1.9.0"
@@ -90,13 +90,13 @@ object Deps {
         const val zxingCore                     = "com.google.zxing:core:${Versions.zxingCoreVersion}"
 
         //Business Modules
-        const val products               	    = "com.afoxplus.android:products:${Versions.productsVersion}"
-        const val network               	    = "com.afoxplus.android:network:${Versions.networkVersion}"
+        const val products               	= "com.afoxplus.android:products:${Versions.productsVersion}"
+        const val network               	= "com.afoxplus.android:network:${Versions.networkVersion}"
         const val home                         	= "com.afoxplus.android:home:${Versions.homeVersion}"
         const val restaurants                   = "com.afoxplus.android:restaurants:${Versions.restaurantsVersion}"
-	    const val orders                        = "com.afoxplus.android:orders:${Versions.ordersVersion}"
+	const val orders                        = "com.afoxplus.android:orders:${Versions.ordersVersion}"
         const val auth                          = "com.afoxplus.android:auth:${Versions.authVersion}"
-        const val waiter                        = "com.afoxplus.android:waiter:${Versions.waiterVersion}"
+        const val demo_config                   = "com.afoxplus.android:waiter:${Versions.demo_config}"
     }
 
     object UI {
