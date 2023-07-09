@@ -23,15 +23,17 @@ object Versions {
     const val okHttpJsonMockVersion             = "1.1.1"
     const val roomVersion                       = "2.5.1"
     const val lifecycleVersion                  = "2.6.1"
-    const val chuckerVersion                    = "3.5.0"
+    const val chuckerVersion                    = "3.5.2"
 
     //Business Modules
-    const val uikitVersion                      = "5.1.0"
-    const val networkVersion                    = "1.0.0"
-    const val productsVersion                   = "2.0.1-RC01.2022-SNAPSHOT"
-    const val homeVersion                       = "1.1.0-RC01.2022-SNAPSHOT"
-    const val restaurantsVersion                = "1.1.0-RC01.2021-SNAPSHOT"
-    const val ordersVersion                     = "2.1.0-RC01.2022-SNAPSHOT"
+    const val uikitVersion                      = "5.3.4"
+    const val networkVersion                    = "1.2.4"
+    const val productsVersion                   = "3.0.2"
+    const val homeVersion                       = "3.0.8"
+    const val restaurantsVersion                = "3.0.4"
+    const val ordersVersion                     = "3.0.12"
+    const val authVersion                       = "1.0.0"
+    const val waiterVersion                     = "1.0.0"
 
     //Views
     const val materialVersion                   = "1.9.0"
@@ -52,8 +54,8 @@ object Versions {
     const val kotlinCoroutineVersion            = "1.6.0"
 
     //Scan
-    const val zxingAndroidVersion               = "4.2.0"
-    const val zxingCoreVersion                  = "3.4.0"
+    const val zxingAndroidVersion               = "4.3.0"
+    const val zxingCoreVersion                  = "3.3.0"
 
 }
 
@@ -93,6 +95,8 @@ object Deps {
         const val home                         	= "com.afoxplus.android:home:${Versions.homeVersion}"
         const val restaurants                   = "com.afoxplus.android:restaurants:${Versions.restaurantsVersion}"
 	    const val orders                        = "com.afoxplus.android:orders:${Versions.ordersVersion}"
+        const val auth                          = "com.afoxplus.android:auth:${Versions.authVersion}"
+        const val waiter                        = "com.afoxplus.android:waiter:${Versions.waiterVersion}"
     }
 
     object UI {
