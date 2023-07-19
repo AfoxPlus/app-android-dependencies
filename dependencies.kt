@@ -33,7 +33,7 @@ object Versions {
     const val restaurantsVersion                = "3.0.4"
     const val ordersVersion                     = "3.0.12"
     const val authVersion                       = "1.0.0"
-    const val demo_config                     	= "1.0.0"
+    const val demo_config                     	= "1.0.1"
 
     //Views
     const val materialVersion                   = "1.9.0"
