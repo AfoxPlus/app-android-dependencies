@@ -60,7 +60,6 @@ object Versions {
 }
 
 object Deps {
-
     object Jetpack {
         const val kotlin                        = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Versions.kotlinVersion}"
         const val core                          = "androidx.core:core-ktx:${Versions.coreVersion}"
