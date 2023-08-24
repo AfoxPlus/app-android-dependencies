@@ -31,7 +31,7 @@ object Versions {
     const val productsVersion                   = "3.1.2"
     const val homeVersion                       = "3.1.5"
     const val restaurantsVersion                = "3.1.2"
-    const val ordersVersion                     = "3.1.7"
+    const val ordersVersion                     = "3.1.8"
     const val authVersion                       = "1.0.0"
     const val demo_config                     	= "1.0.1"
 
