@@ -26,14 +26,14 @@ object Versions {
     const val chuckerVersion                    = "3.5.2"
 
     //Business Modules
-    const val uikitVersion                      = "5.3.4"
-    const val networkVersion                    = "1.2.4"
-    const val productsVersion                   = "3.0.2"
-    const val homeVersion                       = "3.0.8"
-    const val restaurantsVersion                = "3.0.4"
-    const val ordersVersion                     = "3.0.12"
+    const val uikitVersion                      = "5.3.10"
+    const val networkVersion                    = "1.2.5"
+    const val productsVersion                   = "3.1.1"
+    const val homeVersion                       = "3.1.5"
+    const val restaurantsVersion                = "3.1.2"
+    const val ordersVersion                     = "3.1.7"
     const val authVersion                       = "1.0.0"
-    const val waiterVersion                     = "1.0.0"
+    const val demo_config                     	= "1.0.1"
 
     //Views
     const val materialVersion                   = "1.9.0"
@@ -73,7 +73,7 @@ object Deps {
         const val coroutinesCore                = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutinesVersion}"
         const val coroutinesAndroid             = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutinesVersion}"
         const val coreHiltAndroid               = "com.google.dagger:hilt-core:${Versions.hiltVersion}"
-	    const val hiltAndroid                   = "com.google.dagger:hilt-android:${Versions.hiltVersion}"
+	const val hiltAndroid                   = "com.google.dagger:hilt-android:${Versions.hiltVersion}"
         const val hiltCompiler                  = "com.google.dagger:hilt-compiler:${Versions.hiltVersion}"
         const val retrofit2                     = "com.squareup.retrofit2:retrofit:${Versions.retrofit2Version}"
         const val gson                          = "com.squareup.retrofit2:converter-gson:${Versions.retrofit2Version}"
@@ -90,13 +90,13 @@ object Deps {
         const val zxingCore                     = "com.google.zxing:core:${Versions.zxingCoreVersion}"
 
         //Business Modules
-        const val products               	    = "com.afoxplus.android:products:${Versions.productsVersion}"
-        const val network               	    = "com.afoxplus.android:network:${Versions.networkVersion}"
+        const val products               	= "com.afoxplus.android:products:${Versions.productsVersion}"
+        const val network               	= "com.afoxplus.android:network:${Versions.networkVersion}"
         const val home                         	= "com.afoxplus.android:home:${Versions.homeVersion}"
         const val restaurants                   = "com.afoxplus.android:restaurants:${Versions.restaurantsVersion}"
-	    const val orders                        = "com.afoxplus.android:orders:${Versions.ordersVersion}"
+	const val orders                        = "com.afoxplus.android:orders:${Versions.ordersVersion}"
         const val auth                          = "com.afoxplus.android:auth:${Versions.authVersion}"
-        const val waiter                        = "com.afoxplus.android:waiter:${Versions.waiterVersion}"
+        const val demo_config                   = "com.afoxplus.android:demo_config:${Versions.demo_config}"
     }
 
     object UI {
