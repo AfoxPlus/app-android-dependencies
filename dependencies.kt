@@ -1,19 +1,25 @@
 object Versions {
     //Kotlin
-    const val kotlinVersion                     = "1.8.20"
+    const val kotlinVersion                     = "1.9.10"
     //SDK
-    const val compileSdkVersion                 = 33
+    const val compileSdkVersion                 = 34
     const val buildToolsVersion                 = "31.0.0"
     const val minSdkVersion                     = 23
-    const val targetSdkVersion                  = 33
+    const val targetSdkVersion                  = 34
 
     const val testInstrumentationRunner         = "androidx.test.runner.AndroidJUnitRunner"
 
     //Android
-    const val coreVersion                       = "1.10.1"
+    const val coreVersion                       = "1.12.0"
     const val appcompatVersion                  = "1.6.1"
     const val activityVersion                   = "1.6.1"
     const val fragmentVersion                   = "1.5.5"
+
+    //Compose
+    const val activityComposeVersion            = "1.8.0"
+    const val constraintlayoutComposeVersion    = "1.0.1"
+    const val navigationComposeVersion          = "2.7.4"
+    const val bomCompose                        = "2023.06.01"
 
     //Architecture
     const val hiltVersion                       = "2.46"
@@ -26,7 +32,7 @@ object Versions {
     const val chuckerVersion                    = "3.5.2"
 
     //Business Modules
-    const val uikitVersion                      = "6.0.0"
+    const val uikitVersion                      = "6.0.1"
     const val networkVersion                    = "6.0.0"
     const val productsVersion                   = "6.0.0"
     const val homeVersion                       = "6.0.0"
@@ -68,11 +74,24 @@ object Deps {
         const val fragment                      = "androidx.fragment:fragment-ktx:${Versions.fragmentVersion}"
     }
 
+    object JetpackCompose {
+        const val activity                      = "androidx.activity:activity-compose:${Versions.activityComposeVersion}"
+        const val constraintlayout              = "androidx.constraintlayout:constraintlayout-compose:${Versions.constraintlayoutComposeVersion}"
+        const val navigation                    = "androidx.navigation:navigation-compose:${Versions.navigationComposeVersion}"
+        const val bom                           = "androidx.compose:compose-bom:${Versions.bomCompose}"
+        const val ui                            = "androidx.compose.ui:ui"
+        const val graphics                      = "androidx.compose.ui:ui-graphics"
+        const val toolingPreview                = "androidx.compose.ui:ui-tooling-preview"
+        const val material3                     = "androidx.compose.material3:material3"
+        const val materialIconExtended          = "androidx.compose.material:material-icons-extended"
+    }
+
+
     object Arch {
         const val coroutinesCore                = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutinesVersion}"
         const val coroutinesAndroid             = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutinesVersion}"
         const val coreHiltAndroid               = "com.google.dagger:hilt-core:${Versions.hiltVersion}"
-	    const val hiltAndroid                   = "com.google.dagger:hilt-android:${Versions.hiltVersion}"
+	const val hiltAndroid                   = "com.google.dagger:hilt-android:${Versions.hiltVersion}"
         const val hiltCompiler                  = "com.google.dagger:hilt-compiler:${Versions.hiltVersion}"
         const val retrofit2                     = "com.squareup.retrofit2:retrofit:${Versions.retrofit2Version}"
         const val gson                          = "com.squareup.retrofit2:converter-gson:${Versions.retrofit2Version}"
@@ -93,7 +112,7 @@ object Deps {
         const val network               	    = "com.afoxplus.android:network:${Versions.networkVersion}"
         const val home                         	= "com.afoxplus.android:home:${Versions.homeVersion}"
         const val restaurants                   = "com.afoxplus.android:restaurants:${Versions.restaurantsVersion}"
-	    const val orders                        = "com.afoxplus.android:orders:${Versions.ordersVersion}"
+	const val orders                        = "com.afoxplus.android:orders:${Versions.ordersVersion}"
         const val demo_config                   = "com.afoxplus.android:demo_config:${Versions.demo_config}"
     }
 
