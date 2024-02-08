@@ -33,7 +33,7 @@ object Versions {
 
     //Business Modules
     const val uikitVersion                      = "6.0.2"
-    const val networkVersion                    = "6.0.1"
+    const val networkVersion                    = "6.0.2"
     const val productsVersion                   = "6.0.1"
     const val homeVersion                       = "6.0.1"
     const val restaurantsVersion                = "6.0.1"
