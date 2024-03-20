@@ -19,7 +19,7 @@ object Versions {
     const val activityComposeVersion            = "1.8.0"
     const val constraintlayoutComposeVersion    = "1.0.1"
     const val navigationComposeVersion          = "2.7.4"
-    const val bomCompose                        = "2023.06.01"
+    const val bomCompose                        = "2024.03.00"
 
     //Architecture
     const val hiltVersion                       = "2.46"
@@ -82,6 +82,7 @@ object Deps {
         const val ui                            = "androidx.compose.ui:ui"
         const val graphics                      = "androidx.compose.ui:ui-graphics"
         const val toolingPreview                = "androidx.compose.ui:ui-tooling-preview"
+	const val tooling                       = "androidx.compose.ui:ui-tooling"
         const val material3                     = "androidx.compose.material3:material3"
         const val materialIconExtended          = "androidx.compose.material:material-icons-extended"
     }
