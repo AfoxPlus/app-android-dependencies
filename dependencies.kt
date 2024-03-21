@@ -85,7 +85,7 @@ object Deps {
         const val toolingPreview                = "androidx.compose.ui:ui-tooling-preview"
 	const val tooling                       = "androidx.compose.ui:ui-tooling"
         const val material3                     = "androidx.compose.material3:material3"
-	const val coilCompose                   = "io.coil-kt:coil-compose:${Versions.coilCompose"
+	const val coilCompose                   = "io.coil-kt:coil-compose:${Versions.coilCompose}"
         const val materialIconExtended          = "androidx.compose.material:material-icons-extended"
     }
 
