@@ -20,6 +20,7 @@ object Versions {
     const val constraintlayoutComposeVersion    = "1.0.1"
     const val navigationComposeVersion          = "2.7.4"
     const val bomCompose                        = "2024.03.00"
+    const val coilCompose                       = "2.4.0"
 
     //Architecture
     const val hiltVersion                       = "2.46"
@@ -84,6 +85,7 @@ object Deps {
         const val toolingPreview                = "androidx.compose.ui:ui-tooling-preview"
 	const val tooling                       = "androidx.compose.ui:ui-tooling"
         const val material3                     = "androidx.compose.material3:material3"
+	const val coilCompose                   = "io.coil-kt:coil-compose:${Versions.coilCompose"
         const val materialIconExtended          = "androidx.compose.material:material-icons-extended"
     }
 
