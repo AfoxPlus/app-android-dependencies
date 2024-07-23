@@ -139,3 +139,9 @@ object Deps {
         const val kotlinCoroutine               = "org.jetbrains.kotlinx:kotlinx-coroutines-test:${Versions.kotlinCoroutineVersion}"
     }
 }
+
+object Gradle {
+    const val Sonarqube                         = "https://drive.google.com/uc?export=download&id=1JTrnI8AoVkIgc1_uESGLSfQt5Oi9_Pjs"
+    const val Jacoco                            = "https://drive.google.com/uc?export=download&id=1IFjDqr-JL6xK8bVbrzKC1zRwUdCJdSui"
+    const val UploadArtifact                    = "https://drive.google.com/uc?export=download&id=1n319i6WX86UF9v80aj0Mi0BEZttExR4m"
+}
