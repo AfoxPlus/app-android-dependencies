@@ -20,6 +20,8 @@ object Versions {
     const val constraintlayoutComposeVersion    = "1.0.1"
     const val navigationComposeVersion          = "2.7.4"
     const val bomCompose                        = "2024.03.00"
+    const val coilCompose                       = "2.4.0"
+    const val hiltNavigationCompose             = "1.2.0"
 
     //Architecture
     const val hiltVersion                       = "2.46"
@@ -82,8 +84,10 @@ object Deps {
         const val ui                            = "androidx.compose.ui:ui"
         const val graphics                      = "androidx.compose.ui:ui-graphics"
         const val toolingPreview                = "androidx.compose.ui:ui-tooling-preview"
-	const val tooling                       = "androidx.compose.ui:ui-tooling"
+	    const val tooling                       = "androidx.compose.ui:ui-tooling"
         const val material3                     = "androidx.compose.material3:material3"
+	    const val coilCompose                   = "io.coil-kt:coil-compose:${Versions.coilCompose}"
+	    const val hiltNavigationCompose         = "androidx.hilt:hilt-navigation-compose:${Versions.hiltNavigationCompose}"
         const val materialIconExtended          = "androidx.compose.material:material-icons-extended"
     }
 
@@ -92,7 +96,7 @@ object Deps {
         const val coroutinesCore                = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutinesVersion}"
         const val coroutinesAndroid             = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutinesVersion}"
         const val coreHiltAndroid               = "com.google.dagger:hilt-core:${Versions.hiltVersion}"
-	const val hiltAndroid                   = "com.google.dagger:hilt-android:${Versions.hiltVersion}"
+	    const val hiltAndroid                   = "com.google.dagger:hilt-android:${Versions.hiltVersion}"
         const val hiltCompiler                  = "com.google.dagger:hilt-compiler:${Versions.hiltVersion}"
         const val retrofit2                     = "com.squareup.retrofit2:retrofit:${Versions.retrofit2Version}"
         const val gson                          = "com.squareup.retrofit2:converter-gson:${Versions.retrofit2Version}"
@@ -113,7 +117,7 @@ object Deps {
         const val network               	    = "com.afoxplus.android:network:${Versions.networkVersion}"
         const val home                         	= "com.afoxplus.android:home:${Versions.homeVersion}"
         const val restaurants                   = "com.afoxplus.android:restaurants:${Versions.restaurantsVersion}"
-	const val orders                        = "com.afoxplus.android:orders:${Versions.ordersVersion}"
+	    const val orders                        = "com.afoxplus.android:orders:${Versions.ordersVersion}"
         const val demo_config                   = "com.afoxplus.android:demo_config:${Versions.demo_config}"
     }
 
