@@ -40,6 +40,7 @@ object Versions {
     const val homeVersion                       = "6.1.1"
     const val restaurantsVersion                = "6.1.1"
     const val ordersVersion                     = "6.1.0"
+    const val invitationVersion                 = "1.0.1"
     const val demo_config                     	= "6.0.1"
 
     //Views
@@ -84,10 +85,10 @@ object Deps {
         const val ui                            = "androidx.compose.ui:ui"
         const val graphics                      = "androidx.compose.ui:ui-graphics"
         const val toolingPreview                = "androidx.compose.ui:ui-tooling-preview"
-	    const val tooling                       = "androidx.compose.ui:ui-tooling"
+	const val tooling                       = "androidx.compose.ui:ui-tooling"
         const val material3                     = "androidx.compose.material3:material3"
-	    const val coilCompose                   = "io.coil-kt:coil-compose:${Versions.coilCompose}"
-	    const val hiltNavigationCompose         = "androidx.hilt:hilt-navigation-compose:${Versions.hiltNavigationCompose}"
+	const val coilCompose                   = "io.coil-kt:coil-compose:${Versions.coilCompose}"
+	const val hiltNavigationCompose         = "androidx.hilt:hilt-navigation-compose:${Versions.hiltNavigationCompose}"
         const val materialIconExtended          = "androidx.compose.material:material-icons-extended"
     }
 
@@ -96,7 +97,7 @@ object Deps {
         const val coroutinesCore                = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutinesVersion}"
         const val coroutinesAndroid             = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutinesVersion}"
         const val coreHiltAndroid               = "com.google.dagger:hilt-core:${Versions.hiltVersion}"
-	    const val hiltAndroid                   = "com.google.dagger:hilt-android:${Versions.hiltVersion}"
+	const val hiltAndroid                   = "com.google.dagger:hilt-android:${Versions.hiltVersion}"
         const val hiltCompiler                  = "com.google.dagger:hilt-compiler:${Versions.hiltVersion}"
         const val retrofit2                     = "com.squareup.retrofit2:retrofit:${Versions.retrofit2Version}"
         const val gson                          = "com.squareup.retrofit2:converter-gson:${Versions.retrofit2Version}"
@@ -113,11 +114,12 @@ object Deps {
         const val zxingCore                     = "com.google.zxing:core:${Versions.zxingCoreVersion}"
 
         //Business Modules
-        const val products               	    = "com.afoxplus.android:products:${Versions.productsVersion}"
-        const val network               	    = "com.afoxplus.android:network:${Versions.networkVersion}"
+        const val products               	= "com.afoxplus.android:products:${Versions.productsVersion}"
+        const val network               	= "com.afoxplus.android:network:${Versions.networkVersion}"
         const val home                         	= "com.afoxplus.android:home:${Versions.homeVersion}"
         const val restaurants                   = "com.afoxplus.android:restaurants:${Versions.restaurantsVersion}"
-	    const val orders                        = "com.afoxplus.android:orders:${Versions.ordersVersion}"
+	const val orders                        = "com.afoxplus.android:orders:${Versions.ordersVersion}"
+	const val invitations                   = "com.afoxplus.android:invitation:${Versions.invitationVersion}"
         const val demo_config                   = "com.afoxplus.android:demo_config:${Versions.demo_config}"
     }
 
