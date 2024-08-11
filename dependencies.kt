@@ -20,6 +20,8 @@ object Versions {
     const val constraintlayoutComposeVersion    = "1.0.1"
     const val navigationComposeVersion          = "2.7.4"
     const val bomCompose                        = "2024.03.00"
+    const val coilCompose                       = "2.4.0"
+    const val hiltNavigationCompose             = "1.2.0"
 
     //Architecture
     const val hiltVersion                       = "2.46"
@@ -32,12 +34,13 @@ object Versions {
     const val chuckerVersion                    = "3.5.2"
 
     //Business Modules
-    const val uikitVersion                      = "6.1.0"
-    const val networkVersion                    = "6.1.0"
+    const val uikitVersion                      = "6.1.1"
+    const val networkVersion                    = "6.1.1"
     const val productsVersion                   = "6.1.0"
-    const val homeVersion                       = "6.1.1"
+    const val homeVersion                       = "6.2.0"
     const val restaurantsVersion                = "6.1.1"
-    const val ordersVersion                     = "6.1.0"
+    const val ordersVersion                     = "6.1.1"
+    const val invitationVersion                 = "1.1.0"
     const val demo_config                     	= "6.0.1"
 
     //Views
@@ -84,6 +87,8 @@ object Deps {
         const val toolingPreview                = "androidx.compose.ui:ui-tooling-preview"
 	const val tooling                       = "androidx.compose.ui:ui-tooling"
         const val material3                     = "androidx.compose.material3:material3"
+	const val coilCompose                   = "io.coil-kt:coil-compose:${Versions.coilCompose}"
+	const val hiltNavigationCompose         = "androidx.hilt:hilt-navigation-compose:${Versions.hiltNavigationCompose}"
         const val materialIconExtended          = "androidx.compose.material:material-icons-extended"
     }
 
@@ -109,11 +114,12 @@ object Deps {
         const val zxingCore                     = "com.google.zxing:core:${Versions.zxingCoreVersion}"
 
         //Business Modules
-        const val products               	    = "com.afoxplus.android:products:${Versions.productsVersion}"
-        const val network               	    = "com.afoxplus.android:network:${Versions.networkVersion}"
+        const val products               	= "com.afoxplus.android:products:${Versions.productsVersion}"
+        const val network               	= "com.afoxplus.android:network:${Versions.networkVersion}"
         const val home                         	= "com.afoxplus.android:home:${Versions.homeVersion}"
         const val restaurants                   = "com.afoxplus.android:restaurants:${Versions.restaurantsVersion}"
 	const val orders                        = "com.afoxplus.android:orders:${Versions.ordersVersion}"
+	const val invitations                   = "com.afoxplus.android:invitation:${Versions.invitationVersion}"
         const val demo_config                   = "com.afoxplus.android:demo_config:${Versions.demo_config}"
     }
 
