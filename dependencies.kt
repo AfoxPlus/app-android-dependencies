@@ -126,6 +126,7 @@ object Deps {
         const val timber                        = "com.jakewharton.timber:timber:${Versions.timberVersion}"
         const val firebase                      = "com.google.firebase:firebase-bom:${Versions.bomFirebase}"
         const val firebaseAnalytics             = "com.google.firebase:firebase-analytics"
+	const val firebaseCrashlytics           = "com.google.firebase:firebase-crashlytics"
 
         //Business Modules
         const val products               	    = "com.afoxplus.android:products:${Versions.productsVersion}"
