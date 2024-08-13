@@ -25,13 +25,18 @@ object Versions {
 
     //Architecture
     const val hiltVersion                       = "2.46"
-    const val coroutinesVersion                 = "1.7.0"
+    const val coroutinesVersion                 = "1.7.3"
     const val retrofit2Version                  = "2.9.0"
     const val okhttp3Version                    = "4.11.0"
     const val okHttpJsonMockVersion             = "1.1.1"
-    const val roomVersion                       = "2.5.1"
-    const val lifecycleVersion                  = "2.6.1"
+    const val roomVersion                       = "2.6.0"
+    const val lifecycleVersion                  = "2.6.2"
     const val chuckerVersion                    = "3.5.2"
+    const val dataStoreVersion                  = "1.0.0"
+    const val timberVersion                     = "5.0.1"
+
+    //Firebase
+    const val bomFirebase                       = "32.6.0"
 
     //Business Modules
     const val uikitVersion                      = "6.1.1"
@@ -44,7 +49,7 @@ object Versions {
     const val demo_config                     	= "6.0.1"
 
     //Views
-    const val materialVersion                   = "1.9.0"
+    const val materialVersion                   = "1.10.0"
     const val recyclerviewVersion               = "1.2.1"
     const val constraintLayoutVersion           = "2.1.4"
     const val glideVersion                      = "4.15.1"
@@ -85,10 +90,10 @@ object Deps {
         const val ui                            = "androidx.compose.ui:ui"
         const val graphics                      = "androidx.compose.ui:ui-graphics"
         const val toolingPreview                = "androidx.compose.ui:ui-tooling-preview"
-	const val tooling                       = "androidx.compose.ui:ui-tooling"
+	    const val tooling                       = "androidx.compose.ui:ui-tooling"
         const val material3                     = "androidx.compose.material3:material3"
-	const val coilCompose                   = "io.coil-kt:coil-compose:${Versions.coilCompose}"
-	const val hiltNavigationCompose         = "androidx.hilt:hilt-navigation-compose:${Versions.hiltNavigationCompose}"
+	    const val coilCompose                   = "io.coil-kt:coil-compose:${Versions.coilCompose}"
+	    const val hiltNavigationCompose         = "androidx.hilt:hilt-navigation-compose:${Versions.hiltNavigationCompose}"
         const val materialIconExtended          = "androidx.compose.material:material-icons-extended"
     }
 
@@ -97,29 +102,38 @@ object Deps {
         const val coroutinesCore                = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutinesVersion}"
         const val coroutinesAndroid             = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutinesVersion}"
         const val coreHiltAndroid               = "com.google.dagger:hilt-core:${Versions.hiltVersion}"
-	const val hiltAndroid                   = "com.google.dagger:hilt-android:${Versions.hiltVersion}"
-        const val hiltCompiler                  = "com.google.dagger:hilt-compiler:${Versions.hiltVersion}"
+	    const val hiltAndroid                   = "com.google.dagger:hilt-android:${Versions.hiltVersion}"
+        const val hiltAndroidCompiler           = "com.google.dagger:hilt-android-compiler:${Versions.hiltVersion}"
+        const val hiltCompiler                  = "androidx.hilt:hilt-compiler:${Versions.hiltVersion}"
         const val retrofit2                     = "com.squareup.retrofit2:retrofit:${Versions.retrofit2Version}"
         const val gson                          = "com.squareup.retrofit2:converter-gson:${Versions.retrofit2Version}"
         const val loggingInterceptor            = "com.squareup.okhttp3:logging-interceptor:${Versions.okhttp3Version}"
         const val okHttpJsonMock                = "com.github.mirrajabi:okhttp-json-mock:${Versions.okHttpJsonMockVersion}"
+        const val roomRuntime                   = "androidx.room:room-runtime:${Versions.roomVersion}"
         const val room                          = "androidx.room:room-ktx:${Versions.roomVersion}"
         const val roomCompiler                  = "androidx.room:room-compiler:${Versions.roomVersion}"
         const val lifecycleViewModel            = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycleVersion}"
         const val lifecycleLiveData             = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycleVersion}"
-        const val lifecycleRuntime              = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycleVersion}"
+        const val lifecycleCompose              = "androidx.lifecycle:lifecycle-viewmodel-compose:${Versions.lifecycleVersion}"
+        const val lifecycleRuntimeCompose       = "androidx.lifecycle:lifecycle-runtime-compose:${Versions.lifecycleVersion}"
+        const val lifecycleRuntime              = "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.lifecycleVersion}"
         const val chucker                       = "com.github.chuckerteam.chucker:library:${Versions.chuckerVersion}"
         const val chuckerNoOp                   = "com.github.chuckerteam.chucker:library-no-op:${Versions.chuckerVersion}"
         const val zxingAndroid                  = "com.journeyapps:zxing-android-embedded:${Versions.zxingAndroidVersion}"
         const val zxingCore                     = "com.google.zxing:core:${Versions.zxingCoreVersion}"
+        const val dataStore                     = "androidx.datastore:datastore-preferences:${Versions.dataStoreVersion}"
+        const val dataStoreCore                 = "androidx.datastore:datastore-preferences-core:${Versions.dataStoreVersion}"
+        const val timber                        = "com.jakewharton.timber:timber:${Versions.timberVersion}"
+        const val firebase                      = "com.google.firebase:firebase-bom:${Versions.bomFirebase}"
+        const val firebaseAnalytics             = "com.google.firebase:firebase-analytics"
 
         //Business Modules
-        const val products               	= "com.afoxplus.android:products:${Versions.productsVersion}"
-        const val network               	= "com.afoxplus.android:network:${Versions.networkVersion}"
+        const val products               	    = "com.afoxplus.android:products:${Versions.productsVersion}"
+        const val network               	    = "com.afoxplus.android:network:${Versions.networkVersion}"
         const val home                         	= "com.afoxplus.android:home:${Versions.homeVersion}"
         const val restaurants                   = "com.afoxplus.android:restaurants:${Versions.restaurantsVersion}"
-	const val orders                        = "com.afoxplus.android:orders:${Versions.ordersVersion}"
-	const val invitations                   = "com.afoxplus.android:invitation:${Versions.invitationVersion}"
+	    const val orders                        = "com.afoxplus.android:orders:${Versions.ordersVersion}"
+	    const val invitations                   = "com.afoxplus.android:invitation:${Versions.invitationVersion}"
         const val demo_config                   = "com.afoxplus.android:demo_config:${Versions.demo_config}"
     }
 
