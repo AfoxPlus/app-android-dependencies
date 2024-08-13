@@ -25,6 +25,7 @@ object Versions {
 
     //Architecture
     const val hiltVersion                       = "2.46"
+    const val hiltCompileVersion                = "1.2.0"
     const val coroutinesVersion                 = "1.7.3"
     const val retrofit2Version                  = "2.9.0"
     const val okhttp3Version                    = "4.11.0"
@@ -104,7 +105,7 @@ object Deps {
         const val coreHiltAndroid               = "com.google.dagger:hilt-core:${Versions.hiltVersion}"
 	    const val hiltAndroid                   = "com.google.dagger:hilt-android:${Versions.hiltVersion}"
         const val hiltAndroidCompiler           = "com.google.dagger:hilt-android-compiler:${Versions.hiltVersion}"
-        const val hiltCompiler                  = "androidx.hilt:hilt-compiler:${Versions.hiltVersion}"
+        const val hiltCompiler                  = "androidx.hilt:hilt-compiler:${Versions.hiltCompileVersion}"
         const val retrofit2                     = "com.squareup.retrofit2:retrofit:${Versions.retrofit2Version}"
         const val gson                          = "com.squareup.retrofit2:converter-gson:${Versions.retrofit2Version}"
         const val loggingInterceptor            = "com.squareup.okhttp3:logging-interceptor:${Versions.okhttp3Version}"
@@ -126,7 +127,7 @@ object Deps {
         const val timber                        = "com.jakewharton.timber:timber:${Versions.timberVersion}"
         const val firebase                      = "com.google.firebase:firebase-bom:${Versions.bomFirebase}"
         const val firebaseAnalytics             = "com.google.firebase:firebase-analytics"
-	const val firebaseCrashlytics           = "com.google.firebase:firebase-crashlytics"
+	    const val firebaseCrashlytics           = "com.google.firebase:firebase-crashlytics"
 
         //Business Modules
         const val products               	    = "com.afoxplus.android:products:${Versions.productsVersion}"
