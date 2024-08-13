@@ -19,7 +19,7 @@ object Versions {
     const val activityComposeVersion            = "1.9.1"
     const val constraintlayoutComposeVersion    = "1.0.1"
     const val navigationComposeVersion          = "2.7.7"
-    const val bomCompose                        = "2024.06.00"
+    const val bomCompose                        = "2024.04.00"
     const val coilCompose                       = "2.7.0"
     const val hiltNavigationCompose             = "1.2.0"
 
