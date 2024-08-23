@@ -47,7 +47,7 @@ object Versions {
     const val homeVersion                       = "6.3.3"
     const val restaurantsVersion                = "6.2.1"
     const val ordersVersion                     = "6.2.2"
-    const val invitationVersion                 = "1.3.1"
+    const val invitationVersion                 = "1.3.2"
     const val demo_config                     	= "6.1.0"
 
     //Views
