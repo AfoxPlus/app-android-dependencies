@@ -85,6 +85,7 @@ object Deps {
 
     object Jetpack {
         const val kotlin = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Versions.kotlinVersion}"
+        const val kotlinReflect = "org.jetbrains.kotlin:kotlin-reflect:${Versions.kotlinVersion}"
         const val core = "androidx.core:core-ktx:${Versions.coreVersion}"
         const val appcompat = "androidx.appcompat:appcompat:${Versions.appcompatVersion}"
         const val activity = "androidx.activity:activity-ktx:${Versions.activityVersion}"
