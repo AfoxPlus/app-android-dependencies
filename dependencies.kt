@@ -44,6 +44,7 @@ object Versions {
     //Business Modules
     const val uikitVersion = "6.3.5"
     const val bduiVersion = "1.0.2"
+    const val placesVersion = "1.0.0"
     const val networkVersion = "6.3.0"
     const val productsVersion = "6.2.4"
     const val homeVersion = "6.3.5"
@@ -165,6 +166,7 @@ object Deps {
         //Business Modules
         const val products = "com.afoxplus.android:products:${Versions.productsVersion}"
         const val bdui = "com.afoxplus.android:bdui:${Versions.bduiVersion}"
+        const val places = "com.afoxplus.android:places:${Versions.placesVersion}"
         const val network = "com.afoxplus.android:network:${Versions.networkVersion}"
         const val home = "com.afoxplus.android:home:${Versions.homeVersion}"
         const val restaurants = "com.afoxplus.android:restaurants:${Versions.restaurantsVersion}"
