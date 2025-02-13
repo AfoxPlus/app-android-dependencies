@@ -42,7 +42,7 @@ object Versions {
     const val bomFirebase = "32.6.0"
 
     //Business Modules
-    const val uikitVersion = "6.3.5"
+    const val uikitVersion = "6.3.6"
     const val bduiVersion = "1.0.2"
     const val placesVersion = "1.0.0"
     const val networkVersion = "6.3.0"
