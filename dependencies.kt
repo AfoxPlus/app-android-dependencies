@@ -3,7 +3,7 @@ object Versions {
     const val kotlinVersion = "1.9.10"
 
     const val androidApplicationVersion = "8.1.4"
-    const val androidLibraryVersiobn = "8.1.4"
+    const val androidLibraryVersion = "8.1.4"
     const val kotlinKaptVersion = "1.8.22"
     const val kotlinParcelize = "1.7.20"
 
