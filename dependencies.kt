@@ -5,7 +5,7 @@ object Versions {
     const val androidApplicationVersion = "8.1.4"
     const val androidLibraryVersion = "8.1.4"
     const val kotlinKaptVersion = "1.8.22"
-    const val kotlinParcelize = "1.7.20"
+    const val kotlinParcelizeVersion = "1.7.20"
 
     //SDK
     const val compileSdkVersion = 34
