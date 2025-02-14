@@ -23,7 +23,7 @@ object Versions {
     const val bomCompose = "2024.03.00"
     const val coilCompose = "2.4.0"
     const val hiltNavigationCompose = "1.2.0"
-    const val kotlinCompilerExtensionVersion = "1.5.0"
+    const val kotlinCompilerExtensionVersion = "1.5.3"
 
     //Architecture
     const val hiltVersion = "2.46"
