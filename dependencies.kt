@@ -8,10 +8,10 @@ object Versions {
     const val kotlinParcelizeVersion = "1.7.20"
 
     //SDK
-    const val compileSdkVersion = 34
+    const val compileSdkVersion = 35
     const val buildToolsVersion = "31.0.0"
-    const val minSdkVersion = 23
-    const val targetSdkVersion = 34
+    const val minSdkVersion = 24
+    const val targetSdkVersion = 35
 
     const val testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
